@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gradient-to-tr from-[#000900] to-[#000009] bg-center bg-no-repeat bg-cover text-zinc-200;
+}
