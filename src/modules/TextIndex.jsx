@@ -3,7 +3,7 @@ import { useState } from "react";
 import { TextBtn } from "./TextBtn";
 import { TextSection } from "./TextSection";
 
-export function App() {
+export function TextIndex() {
   const [isTextGenerated, setIsTextGenerated] = useState(false);
   const [TextGenerated, setTextGenerated] = useState('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum enim consequat diam convallis, sit amet aliquam risus iaculis. Nunc egestas vitae turpis vitae egestas. Fusce neque felis, porttitor vitae.');
 
