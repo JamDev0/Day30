@@ -1,6 +1,6 @@
 import { HeartStraight } from "phosphor-react";
 
-export function TextSection({ Text }){
+export function TextSection({ Text, Font, Align }){
     return(
         <div
          className="flex flex-col gap-8 my-6"
@@ -11,7 +11,11 @@ export function TextSection({ Text }){
           />
 
           <p
-          className="text-justify text-1xl indent-4 mx-5"
+           className="text-justify indent-4 mx-5"
+           style={{
+             fontSize: Font + 'rem',
+             textAlign: Align,
+           }}
           >
             {Text}
           </p>

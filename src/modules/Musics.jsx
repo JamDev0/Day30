@@ -3,7 +3,15 @@ import { MusicNotes } from 'phosphor-react'
 export function Musics(){
     return(
         <main>
-            <MusicNotes/>
+            <h1
+             className='text-5xl text-center'
+            >
+                Sentimentos cantados para você
+                <MusicNotes
+                 className=''
+                />
+            </h1>
+            
         </main>
     )
 }
